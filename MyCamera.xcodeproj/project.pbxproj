@@ -7,68 +7,72 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		717925672600456D00A4A159 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717925662600456D00A4A159 /* ContentView.swift */; };
-		717925692600457000A4A159 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 717925682600457000A4A159 /* Assets.xcassets */; };
-		7179256C2600457000A4A159 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7179256B2600457000A4A159 /* Preview Assets.xcassets */; };
-		717925772600457000A4A159 /* MyCameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717925762600457000A4A159 /* MyCameraTests.swift */; };
-		717925822600457000A4A159 /* MyCameraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717925812600457000A4A159 /* MyCameraUITests.swift */; };
-		717925932600462400A4A159 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717925922600462400A4A159 /* ImagePickerView.swift */; };
-		7179259E2600700300A4A159 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7179259D2600700300A4A159 /* ActivityView.swift */; };
-		717925A6260076C200A4A159 /* PHPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717925A5260076C200A4A159 /* PHPickerView.swift */; };
-		717925C326008CE600A4A159 /* MyCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717925C226008CE600A4A159 /* MyCamera.swift */; };
+		717925E626009BA200A4A159 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717925E526009BA200A4A159 /* AppDelegate.swift */; };
+		717925E826009BA200A4A159 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717925E726009BA200A4A159 /* SceneDelegate.swift */; };
+		717925EA26009BA200A4A159 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717925E926009BA200A4A159 /* ContentView.swift */; };
+		717925EC26009BA300A4A159 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 717925EB26009BA300A4A159 /* Assets.xcassets */; };
+		717925EF26009BA300A4A159 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 717925EE26009BA300A4A159 /* Preview Assets.xcassets */; };
+		717925F226009BA300A4A159 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 717925F026009BA300A4A159 /* LaunchScreen.storyboard */; };
+		717925FD26009BA300A4A159 /* MyCamera13Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717925FC26009BA300A4A159 /* MyCamera13Tests.swift */; };
+		7179260826009BA300A4A159 /* MyCamera13UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7179260726009BA300A4A159 /* MyCamera13UITests.swift */; };
+		7179262126009FF300A4A159 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7179261E26009FF300A4A159 /* ActivityView.swift */; };
+		7179262226009FF300A4A159 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7179261F26009FF300A4A159 /* ImagePickerView.swift */; };
+		7179262326009FF300A4A159 /* PHPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7179262026009FF300A4A159 /* PHPickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		717925732600457000A4A159 /* PBXContainerItemProxy */ = {
+		717925F926009BA300A4A159 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 717925592600456D00A4A159 /* Project object */;
+			containerPortal = 717925DA26009BA200A4A159 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 717925602600456D00A4A159;
-			remoteInfo = MyCamera;
+			remoteGlobalIDString = 717925E126009BA200A4A159;
+			remoteInfo = MyCamera13;
 		};
-		7179257E2600457000A4A159 /* PBXContainerItemProxy */ = {
+		7179260426009BA300A4A159 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 717925592600456D00A4A159 /* Project object */;
+			containerPortal = 717925DA26009BA200A4A159 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 717925602600456D00A4A159;
-			remoteInfo = MyCamera;
+			remoteGlobalIDString = 717925E126009BA200A4A159;
+			remoteInfo = MyCamera13;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		717925612600456D00A4A159 /* MyCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		717925662600456D00A4A159 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		717925682600457000A4A159 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7179256B2600457000A4A159 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		7179256D2600457000A4A159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		717925722600457000A4A159 /* MyCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		717925762600457000A4A159 /* MyCameraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCameraTests.swift; sourceTree = "<group>"; };
-		717925782600457000A4A159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7179257D2600457000A4A159 /* MyCameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		717925812600457000A4A159 /* MyCameraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCameraUITests.swift; sourceTree = "<group>"; };
-		717925832600457000A4A159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		717925922600462400A4A159 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
-		7179259D2600700300A4A159 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
-		717925A5260076C200A4A159 /* PHPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHPickerView.swift; sourceTree = "<group>"; };
-		717925C226008CE600A4A159 /* MyCamera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCamera.swift; sourceTree = "<group>"; };
+		717925E226009BA200A4A159 /* MyCamera13.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCamera13.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		717925E526009BA200A4A159 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		717925E726009BA200A4A159 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		717925E926009BA200A4A159 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		717925EB26009BA300A4A159 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		717925EE26009BA300A4A159 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		717925F126009BA300A4A159 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		717925F326009BA300A4A159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		717925F826009BA300A4A159 /* MyCamera13Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCamera13Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		717925FC26009BA300A4A159 /* MyCamera13Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCamera13Tests.swift; sourceTree = "<group>"; };
+		717925FE26009BA300A4A159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7179260326009BA300A4A159 /* MyCamera13UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCamera13UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7179260726009BA300A4A159 /* MyCamera13UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCamera13UITests.swift; sourceTree = "<group>"; };
+		7179260926009BA300A4A159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7179261E26009FF300A4A159 /* ActivityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		7179261F26009FF300A4A159 /* ImagePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		7179262026009FF300A4A159 /* PHPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHPickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7179255E2600456D00A4A159 /* Frameworks */ = {
+		717925DF26009BA200A4A159 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7179256F2600457000A4A159 /* Frameworks */ = {
+		717925F526009BA300A4A159 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7179257A2600457000A4A159 /* Frameworks */ = {
+		7179260026009BA300A4A159 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,146 +82,148 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		717925582600456D00A4A159 = {
+		717925D926009BA200A4A159 = {
 			isa = PBXGroup;
 			children = (
-				717925632600456D00A4A159 /* MyCamera */,
-				717925752600457000A4A159 /* MyCameraTests */,
-				717925802600457000A4A159 /* MyCameraUITests */,
-				717925622600456D00A4A159 /* Products */,
+				717925E426009BA200A4A159 /* MyCamera13 */,
+				717925FB26009BA300A4A159 /* MyCamera13Tests */,
+				7179260626009BA300A4A159 /* MyCamera13UITests */,
+				717925E326009BA200A4A159 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		717925622600456D00A4A159 /* Products */ = {
+		717925E326009BA200A4A159 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				717925612600456D00A4A159 /* MyCamera.app */,
-				717925722600457000A4A159 /* MyCameraTests.xctest */,
-				7179257D2600457000A4A159 /* MyCameraUITests.xctest */,
+				717925E226009BA200A4A159 /* MyCamera13.app */,
+				717925F826009BA300A4A159 /* MyCamera13Tests.xctest */,
+				7179260326009BA300A4A159 /* MyCamera13UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		717925632600456D00A4A159 /* MyCamera */ = {
+		717925E426009BA200A4A159 /* MyCamera13 */ = {
 			isa = PBXGroup;
 			children = (
-				717925C226008CE600A4A159 /* MyCamera.swift */,
-				717925662600456D00A4A159 /* ContentView.swift */,
-				717925A5260076C200A4A159 /* PHPickerView.swift */,
-				7179259D2600700300A4A159 /* ActivityView.swift */,
-				717925922600462400A4A159 /* ImagePickerView.swift */,
-				717925682600457000A4A159 /* Assets.xcassets */,
-				7179256D2600457000A4A159 /* Info.plist */,
-				7179256A2600457000A4A159 /* Preview Content */,
+				717925E526009BA200A4A159 /* AppDelegate.swift */,
+				717925E726009BA200A4A159 /* SceneDelegate.swift */,
+				717925E926009BA200A4A159 /* ContentView.swift */,
+				7179261E26009FF300A4A159 /* ActivityView.swift */,
+				7179261F26009FF300A4A159 /* ImagePickerView.swift */,
+				7179262026009FF300A4A159 /* PHPickerView.swift */,
+				717925EB26009BA300A4A159 /* Assets.xcassets */,
+				717925F026009BA300A4A159 /* LaunchScreen.storyboard */,
+				717925F326009BA300A4A159 /* Info.plist */,
+				717925ED26009BA300A4A159 /* Preview Content */,
 			);
-			path = MyCamera;
+			path = MyCamera13;
 			sourceTree = "<group>";
 		};
-		7179256A2600457000A4A159 /* Preview Content */ = {
+		717925ED26009BA300A4A159 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				7179256B2600457000A4A159 /* Preview Assets.xcassets */,
+				717925EE26009BA300A4A159 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		717925752600457000A4A159 /* MyCameraTests */ = {
+		717925FB26009BA300A4A159 /* MyCamera13Tests */ = {
 			isa = PBXGroup;
 			children = (
-				717925762600457000A4A159 /* MyCameraTests.swift */,
-				717925782600457000A4A159 /* Info.plist */,
+				717925FC26009BA300A4A159 /* MyCamera13Tests.swift */,
+				717925FE26009BA300A4A159 /* Info.plist */,
 			);
-			path = MyCameraTests;
+			path = MyCamera13Tests;
 			sourceTree = "<group>";
 		};
-		717925802600457000A4A159 /* MyCameraUITests */ = {
+		7179260626009BA300A4A159 /* MyCamera13UITests */ = {
 			isa = PBXGroup;
 			children = (
-				717925812600457000A4A159 /* MyCameraUITests.swift */,
-				717925832600457000A4A159 /* Info.plist */,
+				7179260726009BA300A4A159 /* MyCamera13UITests.swift */,
+				7179260926009BA300A4A159 /* Info.plist */,
 			);
-			path = MyCameraUITests;
+			path = MyCamera13UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		717925602600456D00A4A159 /* MyCamera */ = {
+		717925E126009BA200A4A159 /* MyCamera13 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 717925862600457000A4A159 /* Build configuration list for PBXNativeTarget "MyCamera" */;
+			buildConfigurationList = 7179260C26009BA300A4A159 /* Build configuration list for PBXNativeTarget "MyCamera13" */;
 			buildPhases = (
-				7179255D2600456D00A4A159 /* Sources */,
-				7179255E2600456D00A4A159 /* Frameworks */,
-				7179255F2600456D00A4A159 /* Resources */,
+				717925DE26009BA200A4A159 /* Sources */,
+				717925DF26009BA200A4A159 /* Frameworks */,
+				717925E026009BA200A4A159 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MyCamera;
-			productName = MyCamera;
-			productReference = 717925612600456D00A4A159 /* MyCamera.app */;
+			name = MyCamera13;
+			productName = MyCamera13;
+			productReference = 717925E226009BA200A4A159 /* MyCamera13.app */;
 			productType = "com.apple.product-type.application";
 		};
-		717925712600457000A4A159 /* MyCameraTests */ = {
+		717925F726009BA300A4A159 /* MyCamera13Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 717925892600457000A4A159 /* Build configuration list for PBXNativeTarget "MyCameraTests" */;
+			buildConfigurationList = 7179260F26009BA300A4A159 /* Build configuration list for PBXNativeTarget "MyCamera13Tests" */;
 			buildPhases = (
-				7179256E2600457000A4A159 /* Sources */,
-				7179256F2600457000A4A159 /* Frameworks */,
-				717925702600457000A4A159 /* Resources */,
+				717925F426009BA300A4A159 /* Sources */,
+				717925F526009BA300A4A159 /* Frameworks */,
+				717925F626009BA300A4A159 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				717925742600457000A4A159 /* PBXTargetDependency */,
+				717925FA26009BA300A4A159 /* PBXTargetDependency */,
 			);
-			name = MyCameraTests;
-			productName = MyCameraTests;
-			productReference = 717925722600457000A4A159 /* MyCameraTests.xctest */;
+			name = MyCamera13Tests;
+			productName = MyCamera13Tests;
+			productReference = 717925F826009BA300A4A159 /* MyCamera13Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		7179257C2600457000A4A159 /* MyCameraUITests */ = {
+		7179260226009BA300A4A159 /* MyCamera13UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7179258C2600457000A4A159 /* Build configuration list for PBXNativeTarget "MyCameraUITests" */;
+			buildConfigurationList = 7179261226009BA300A4A159 /* Build configuration list for PBXNativeTarget "MyCamera13UITests" */;
 			buildPhases = (
-				717925792600457000A4A159 /* Sources */,
-				7179257A2600457000A4A159 /* Frameworks */,
-				7179257B2600457000A4A159 /* Resources */,
+				717925FF26009BA300A4A159 /* Sources */,
+				7179260026009BA300A4A159 /* Frameworks */,
+				7179260126009BA300A4A159 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7179257F2600457000A4A159 /* PBXTargetDependency */,
+				7179260526009BA300A4A159 /* PBXTargetDependency */,
 			);
-			name = MyCameraUITests;
-			productName = MyCameraUITests;
-			productReference = 7179257D2600457000A4A159 /* MyCameraUITests.xctest */;
+			name = MyCamera13UITests;
+			productName = MyCamera13UITests;
+			productReference = 7179260326009BA300A4A159 /* MyCamera13UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		717925592600456D00A4A159 /* Project object */ = {
+		717925DA26009BA200A4A159 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					717925602600456D00A4A159 = {
+					717925E126009BA200A4A159 = {
 						CreatedOnToolsVersion = 12.4;
 					};
-					717925712600457000A4A159 = {
+					717925F726009BA300A4A159 = {
 						CreatedOnToolsVersion = 12.4;
-						TestTargetID = 717925602600456D00A4A159;
+						TestTargetID = 717925E126009BA200A4A159;
 					};
-					7179257C2600457000A4A159 = {
+					7179260226009BA300A4A159 = {
 						CreatedOnToolsVersion = 12.4;
-						TestTargetID = 717925602600456D00A4A159;
+						TestTargetID = 717925E126009BA200A4A159;
 					};
 				};
 			};
-			buildConfigurationList = 7179255C2600456D00A4A159 /* Build configuration list for PBXProject "MyCamera" */;
+			buildConfigurationList = 717925DD26009BA200A4A159 /* Build configuration list for PBXProject "MyCamera13" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -225,36 +231,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 717925582600456D00A4A159;
-			productRefGroup = 717925622600456D00A4A159 /* Products */;
+			mainGroup = 717925D926009BA200A4A159;
+			productRefGroup = 717925E326009BA200A4A159 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				717925602600456D00A4A159 /* MyCamera */,
-				717925712600457000A4A159 /* MyCameraTests */,
-				7179257C2600457000A4A159 /* MyCameraUITests */,
+				717925E126009BA200A4A159 /* MyCamera13 */,
+				717925F726009BA300A4A159 /* MyCamera13Tests */,
+				7179260226009BA300A4A159 /* MyCamera13UITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7179255F2600456D00A4A159 /* Resources */ = {
+		717925E026009BA200A4A159 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7179256C2600457000A4A159 /* Preview Assets.xcassets in Resources */,
-				717925692600457000A4A159 /* Assets.xcassets in Resources */,
+				717925F226009BA300A4A159 /* LaunchScreen.storyboard in Resources */,
+				717925EF26009BA300A4A159 /* Preview Assets.xcassets in Resources */,
+				717925EC26009BA300A4A159 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		717925702600457000A4A159 /* Resources */ = {
+		717925F626009BA300A4A159 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7179257B2600457000A4A159 /* Resources */ = {
+		7179260126009BA300A4A159 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -264,51 +271,63 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7179255D2600456D00A4A159 /* Sources */ = {
+		717925DE26009BA200A4A159 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				717925A6260076C200A4A159 /* PHPickerView.swift in Sources */,
-				717925C326008CE600A4A159 /* MyCamera.swift in Sources */,
-				717925672600456D00A4A159 /* ContentView.swift in Sources */,
-				7179259E2600700300A4A159 /* ActivityView.swift in Sources */,
-				717925932600462400A4A159 /* ImagePickerView.swift in Sources */,
+				717925E626009BA200A4A159 /* AppDelegate.swift in Sources */,
+				7179262126009FF300A4A159 /* ActivityView.swift in Sources */,
+				7179262326009FF300A4A159 /* PHPickerView.swift in Sources */,
+				717925E826009BA200A4A159 /* SceneDelegate.swift in Sources */,
+				717925EA26009BA200A4A159 /* ContentView.swift in Sources */,
+				7179262226009FF300A4A159 /* ImagePickerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7179256E2600457000A4A159 /* Sources */ = {
+		717925F426009BA300A4A159 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				717925772600457000A4A159 /* MyCameraTests.swift in Sources */,
+				717925FD26009BA300A4A159 /* MyCamera13Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		717925792600457000A4A159 /* Sources */ = {
+		717925FF26009BA300A4A159 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				717925822600457000A4A159 /* MyCameraUITests.swift in Sources */,
+				7179260826009BA300A4A159 /* MyCamera13UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		717925742600457000A4A159 /* PBXTargetDependency */ = {
+		717925FA26009BA300A4A159 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 717925602600456D00A4A159 /* MyCamera */;
-			targetProxy = 717925732600457000A4A159 /* PBXContainerItemProxy */;
+			target = 717925E126009BA200A4A159 /* MyCamera13 */;
+			targetProxy = 717925F926009BA300A4A159 /* PBXContainerItemProxy */;
 		};
-		7179257F2600457000A4A159 /* PBXTargetDependency */ = {
+		7179260526009BA300A4A159 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 717925602600456D00A4A159 /* MyCamera */;
-			targetProxy = 7179257E2600457000A4A159 /* PBXContainerItemProxy */;
+			target = 717925E126009BA200A4A159 /* MyCamera13 */;
+			targetProxy = 7179260426009BA300A4A159 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		717925F026009BA300A4A159 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				717925F126009BA300A4A159 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		717925842600457000A4A159 /* Debug */ = {
+		7179260A26009BA300A4A159 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -369,7 +388,7 @@
 			};
 			name = Debug;
 		};
-		717925852600457000A4A159 /* Release */ = {
+		7179260B26009BA300A4A159 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -424,174 +443,174 @@
 			};
 			name = Release;
 		};
-		717925872600457000A4A159 /* Debug */ = {
+		7179260D26009BA300A4A159 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"MyCamera/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MyCamera13/Preview Content\"";
 				DEVELOPMENT_TEAM = DU29U35ZKE;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = MyCamera/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				INFOPLIST_FILE = MyCamera13/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Style2-Natural.MyCamera";
+				PRODUCT_BUNDLE_IDENTIFIER = Style2Natural.MyCamera13;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		717925882600457000A4A159 /* Release */ = {
+		7179260E26009BA300A4A159 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"MyCamera/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MyCamera13/Preview Content\"";
 				DEVELOPMENT_TEAM = DU29U35ZKE;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = MyCamera/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				INFOPLIST_FILE = MyCamera13/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Style2-Natural.MyCamera";
+				PRODUCT_BUNDLE_IDENTIFIER = Style2Natural.MyCamera13;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		7179258A2600457000A4A159 /* Debug */ = {
+		7179261026009BA300A4A159 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PTUKDUTHP4;
-				INFOPLIST_FILE = MyCameraTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				INFOPLIST_FILE = MyCamera13Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "daito-yamashita.MyCameraTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "daito-yamashita.MyCamera13Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyCamera.app/MyCamera";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyCamera13.app/MyCamera13";
 			};
 			name = Debug;
 		};
-		7179258B2600457000A4A159 /* Release */ = {
+		7179261126009BA300A4A159 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PTUKDUTHP4;
-				INFOPLIST_FILE = MyCameraTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				INFOPLIST_FILE = MyCamera13Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "daito-yamashita.MyCameraTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "daito-yamashita.MyCamera13Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyCamera.app/MyCamera";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyCamera13.app/MyCamera13";
 			};
 			name = Release;
 		};
-		7179258D2600457000A4A159 /* Debug */ = {
+		7179261326009BA300A4A159 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PTUKDUTHP4;
-				INFOPLIST_FILE = MyCameraUITests/Info.plist;
+				INFOPLIST_FILE = MyCamera13UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "daito-yamashita.MyCameraUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "daito-yamashita.MyCamera13UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MyCamera;
+				TEST_TARGET_NAME = MyCamera13;
 			};
 			name = Debug;
 		};
-		7179258E2600457000A4A159 /* Release */ = {
+		7179261426009BA300A4A159 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PTUKDUTHP4;
-				INFOPLIST_FILE = MyCameraUITests/Info.plist;
+				INFOPLIST_FILE = MyCamera13UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "daito-yamashita.MyCameraUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "daito-yamashita.MyCamera13UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MyCamera;
+				TEST_TARGET_NAME = MyCamera13;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7179255C2600456D00A4A159 /* Build configuration list for PBXProject "MyCamera" */ = {
+		717925DD26009BA200A4A159 /* Build configuration list for PBXProject "MyCamera13" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				717925842600457000A4A159 /* Debug */,
-				717925852600457000A4A159 /* Release */,
+				7179260A26009BA300A4A159 /* Debug */,
+				7179260B26009BA300A4A159 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		717925862600457000A4A159 /* Build configuration list for PBXNativeTarget "MyCamera" */ = {
+		7179260C26009BA300A4A159 /* Build configuration list for PBXNativeTarget "MyCamera13" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				717925872600457000A4A159 /* Debug */,
-				717925882600457000A4A159 /* Release */,
+				7179260D26009BA300A4A159 /* Debug */,
+				7179260E26009BA300A4A159 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		717925892600457000A4A159 /* Build configuration list for PBXNativeTarget "MyCameraTests" */ = {
+		7179260F26009BA300A4A159 /* Build configuration list for PBXNativeTarget "MyCamera13Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7179258A2600457000A4A159 /* Debug */,
-				7179258B2600457000A4A159 /* Release */,
+				7179261026009BA300A4A159 /* Debug */,
+				7179261126009BA300A4A159 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7179258C2600457000A4A159 /* Build configuration list for PBXNativeTarget "MyCameraUITests" */ = {
+		7179261226009BA300A4A159 /* Build configuration list for PBXNativeTarget "MyCamera13UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7179258D2600457000A4A159 /* Debug */,
-				7179258E2600457000A4A159 /* Release */,
+				7179261326009BA300A4A159 /* Debug */,
+				7179261426009BA300A4A159 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 717925592600456D00A4A159 /* Project object */;
+	rootObject = 717925DA26009BA200A4A159 /* Project object */;
 }

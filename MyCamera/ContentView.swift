@@ -1,12 +1,13 @@
 //
 //  ContentView.swift
-//  MyCamera
+//  MyCamera13
 //
 //  Created by daito yamashita on 2021/03/16.
 //
 
 import SwiftUI
 
+@available(iOS 14, *)
 struct ContentView: View {
     // 撮影する写真を保持する状態変数
     @State var captureImage: UIImage? = nil
@@ -131,6 +132,7 @@ struct ContentView: View {
     }
 }
 
+@available(iOS 14, *)
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()

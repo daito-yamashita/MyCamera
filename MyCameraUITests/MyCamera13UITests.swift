@@ -1,13 +1,13 @@
 //
-//  MyCameraUITests.swift
-//  MyCameraUITests
+//  MyCamera13UITests.swift
+//  MyCamera13UITests
 //
 //  Created by daito yamashita on 2021/03/16.
 //
 
 import XCTest
 
-class MyCameraUITests: XCTestCase {
+class MyCamera13UITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

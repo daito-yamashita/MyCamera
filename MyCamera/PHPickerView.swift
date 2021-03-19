@@ -8,6 +8,7 @@
 import SwiftUI
 import PhotosUI
 
+@available(iOS 14, *)
 struct PHPickerView: UIViewControllerRepresentable {
     
     @Binding var isShowSheet: Bool
