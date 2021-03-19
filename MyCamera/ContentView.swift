@@ -1,22 +1,18 @@
 //
 //  ContentView.swift
-//  MyCamera13
+//  MyCamera
 //
 //  Created by daito yamashita on 2021/03/16.
 //
 
 import SwiftUI
 
-@available(iOS 14, *)
 struct ContentView: View {
     // 撮影する写真を保持する状態変数
     @State var captureImage: UIImage? = nil
     
     // 撮影画面のsheet
     @State var isShowSheet = false
-    
-    // share画面のsheet
-    @State var isShowActivity = false
     
     // フォトライブラリかカメラを保持する状態変数
     @State var isPhotolibrary = false
@@ -26,20 +22,13 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            Spacer()
-            
-            // 撮影した写真があるとき
-            if let unwrapCaptureImage = captureImage {
-                // 撮影写真を表示
-                Image(uiImage: unwrapCaptureImage)
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-            }
             
             Spacer()
             
             Button(action: {
                 // ボタンをタップしたときの処理
+                //撮影写真を初期化する
+                captureImage = nil
                 // カメラが利用可能かチェック
                 if UIImagePickerController.isSourceTypeAvailable(.camera) {
                     
@@ -63,19 +52,25 @@ struct ContentView: View {
             
             // sheetを表示
             .sheet(isPresented: $isShowSheet) {
-                if isPhotolibrary {
-                    // PHPickerViewController（フォトライブラリ）を表示
-                    PHPickerView(
+                if let unwrapCaptureImage = captureImage {
+                    // 撮影した写真がある->EffectViewを表示する
+                    EffectView(
                         isShowSheet: $isShowSheet,
-                        captureImage: $captureImage
+                        captureImage: unwrapCaptureImage
                     )
                 } else {
-                    // UIImagePickerController（写真撮影）を表示
-                    ImagePickerView (
-                        isShowSheet: $isShowSheet,
-                        captureImage: $captureImage
-                    )
-
+                    // フォトライブラリが選択された
+                    if isPhotolibrary {
+                        PHPickerView(
+                            isShowSheet: $isShowSheet,
+                            captureImage: $captureImage
+                        )
+                    } else {
+                        ImagePickerView(
+                            isShowSheet: $isShowSheet,
+                            captureImage: $captureImage
+                        )
+                    }
                 }
             }
             
@@ -106,33 +101,10 @@ struct ContentView: View {
                                 .cancel(),
                             ])
             }
-            
-            // 「SNSに投稿する」ボタン
-            Button(action: {
-                // ボタンをタップした時のアクション
-                if let _ = captureImage {
-                    isShowActivity = true
-                }
-            }) {
-                Text("SNSに投稿する")
-                    .frame(maxWidth: .infinity)
-                    .frame(height: 50)
-                    .multilineTextAlignment(.center)
-                    .background(Color.blue)
-                    .foregroundColor(Color.white)
-            }
-            
-            .padding()
-            
-            // sheetを表示
-            .sheet(isPresented: $isShowActivity) {
-                ActivityView(shareItems: [captureImage!])
-            }
         }
     }
 }
 
-@available(iOS 14, *)
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()

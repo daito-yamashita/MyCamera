@@ -8,7 +8,6 @@
 import SwiftUI
 import PhotosUI
 
-@available(iOS 14, *)
 struct PHPickerView: UIViewControllerRepresentable {
     
     @Binding var isShowSheet: Bool
@@ -35,11 +34,14 @@ struct PHPickerView: UIViewControllerRepresentable {
                         print("使用できる写真がないです")
                     }
                 }
+                // sheetを閉じない
+                parent.isShowSheet = true
+                
             } else {
                 print("選択された写真はないです")
+                // sheetを閉じる
+                parent.isShowSheet = false
             }
-            
-            parent.isShowSheet = false
         }
     }
     
